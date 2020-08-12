@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #000001;
   height: 100%;
 }
 
@@ -121,15 +121,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  color: lightgray;
+  line-height: 1.6em;
+  font-size: 1em;
   width: 30%;
+  overflow: auto;
+  padding: 30px 0;
+}
+.div-2 {
+    border-right: 1px solid lightslategray;
+    border-left: 1px solid lightslategray;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
-
+p span {
+    color: lightslategray;
+    font-weight: bold;
+}
 
 
 /* ==========================================================================
